@@ -1,0 +1,48 @@
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "firstName": "Aniebiet",
+    "lastName": "Celestine",
+    "email": "francisaniebiet678@gmail.com",
+    "password": "Babyboycda"
+}
+
+###
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "email": "francisaniebiet678@gmail.com",
+    "password": "Babyboycda"
+}
+
+###
+POST http://localhost:3000/forgot-password
+Content-Type: application/json
+
+{
+    "email": "francisaniebiet678@gmail.com"
+}
+
+###
+POST http://localhost:3000/reset-password
+Content-Type: application/json
+
+{
+    "token": "93c39dca-f4a0-4d4a-b474-59866af45451",
+    "newPassword": "Babyboy234"
+}
+
+###
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "email": "francisaniebiet678@gmail.com",
+    "password": "Babyboy234"
+}
+
+###
+GET http://localhost:3000/profile
+Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OWNiMGI4NGY5YzI3MTE3ZGQ1NjVhOCIsImVtYWlsIjoiZnJhbmNpc2FuaWViaWV0Njc4QGdtYWlsLmNvbSIsImlhdCI6MTcyMTU0ODU5N30.fcUXWaynVfO9DjxQMccLAUOsTyk4nZhbUgowJwRdpak"
